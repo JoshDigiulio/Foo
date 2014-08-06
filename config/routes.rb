@@ -1,4 +1,6 @@
 Foo::Application.routes.draw do
+  get "bar/about"
+  get "bar/home"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
